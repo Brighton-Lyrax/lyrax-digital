@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /portal
+Disallow: /ops
+Disallow: /cms-internal
+Disallow: /portal-internal
+Disallow: /workspace-internal
+Disallow: /api
+Sitemap: https://lyrax-digital.example/sitemap.xml
