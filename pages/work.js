@@ -16,12 +16,12 @@ export default function Work() {
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           {[
-            { name: 'Meridian Services', result: 'Client portal with role-aware dashboards and booking flow.' },
-            { name: 'Northwind Retail', result: 'WooCommerce storefront with clearer checkout and order ops.' },
-            { name: 'Atlas Networks', result: 'Corporate site with SEO baseline and month-one content model.' },
-            { name: 'Pillar Co.', result: 'Brand system, social templates, and pitch deck refresh.' },
+            { id: 'yvvyybot101', name: 'Yvvyybot101', result: 'Standalone Telegram assistant with OpenRouter chat, access control, and session logging.' },
+            { id: 'browser-agent', name: 'Browser Agent', result: 'FastAPI backend with browser automation, checkout/webhook flow, and revenue reporting.' },
+            { id: 'lyraxc', name: 'Lyraxc', result: 'Experimental local-inference scaffolding for agent workflows on CPU hardware.' },
+            { id: 'agentic-app', name: 'Agentic App', result: 'Owner-controlled Telegram chat-bot stack with typed access rules and daily JSONL sessions.' },
           ].map((item) => (
-            <div key={item.name} className="p-6 rounded border border-white/5">
+            <div key={item.name} id={item.id} className="p-6 rounded border border-white/5">
               <h3 className="text-xl font-semibold mb-2 text-gold-400">{item.name}</h3>
               <p className="text-gray-300">{item.result}</p>
             </div>
